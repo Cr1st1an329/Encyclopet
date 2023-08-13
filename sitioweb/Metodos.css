@@ -1,0 +1,23 @@
+html, body {
+    background-image: url("img/Perros_pequeños.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+
+.container-fluid {
+    background-color: cyan;
+    border: 2px solid black;
+    display: flex;
+      justify-content: center;	
+}
+
+
+.col {
+    background-color: pink;
+    border: 2px solid black;
+
+}
+
+

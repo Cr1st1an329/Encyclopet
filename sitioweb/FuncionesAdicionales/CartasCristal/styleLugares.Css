@@ -1,0 +1,43 @@
+body
+{
+    background-image: url(../../img/LugaresBackogrund.jpg);
+    background-size:contain;
+    background-position: center center;
+    background-attachment: fixed;
+    color:black;
+}   
+
+.title{
+    margin: 0 auto;
+    width: 1000%;
+    max-width: 40rem;
+    font-size: 4rem;
+    text-align: center;
+}
+
+.card{
+    width: 100;
+    max-width: 400px;
+    padding: 0.5rem 0.5rem;
+
+    border-radius: 1rem;
+    border: 1px solid transparent;
+
+    backdrop-filter: blur(1rem);
+    box-shadow: 0.5rem 0.5rem 0.5rem rgba(0,0,0,0.5);
+
+    border-top-color: rgba(255,255,255,0.5);
+    border-left-color: rgba(255,255,255,0.5);
+    border-bottom-color: rgba(255,255,255,0.1);
+    border-right-color: rgba(255,255,255,0.1);
+
+}
+
+.cb1{
+    background-color: rgba(255,255,255,0.1);    
+}
+
+.cb2{
+    
+    background: linear-gradient(to right bottom,rgba(255,255,255,0.5), rgba(255,255,255,0.3));   
+}
